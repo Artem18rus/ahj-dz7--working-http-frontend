@@ -1,0 +1,228 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+}
+
+.content {
+	margin: 70px auto;
+	width: 80%;
+}
+
+.field-button {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.add-ticket {
+	width: 20%;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.add-ticket:hover {
+	background-color: #9d9a9a;
+	transition: 0.5s;
+}
+
+
+.container {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.container-item {
+	display: flex;
+	/* align-items: center; */
+	padding: 5px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.radio-btn {
+	width: 10%;
+	padding: 2px;
+}
+
+.name-description {
+	width: 50%;
+}
+
+.name {
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.description {
+	margin-top: 15px;
+}
+
+.descriptionActive {
+	display: none;
+}
+
+.date-time {
+	width: 30%;
+	margin-top: 10px;
+}
+
+.action {
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+}
+
+.check {
+	position: relative;
+
+	background-size: cover;
+	background-image: url('../img/check.png');
+}
+
+.edit-btn {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.close-btn {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+}
+
+.pencil {
+	position: relative;
+	background-size: 100% 100%;
+
+	background-repeat: no-repeat;
+	background-image: url('../img/pencil.png');
+}
+
+.cross {
+	position: relative;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../img/cross.png');
+}
+
+.modalCreateTicket, .modalDeleteTicket, .modalEditTicket {
+	padding: 15px;
+	position: fixed;
+	width: 40%;
+	border: 2px solid;
+	border-radius: 10px;
+	background: white;
+	left: 50%;
+  top: 40%;
+  transform:translate(-50%, -50%);
+}
+
+.header {
+	display: flex;
+  justify-content: center;
+	font-size: 1.2rem;
+}
+
+textarea {
+	width: 100%;
+	padding: 5px;
+	resize: none;
+	border-color: black;
+}
+
+.short-description p, warningDelTicket p {
+	margin-bottom: 10px;
+}
+
+.detailed-description p {
+	margin-bottom: 10px;
+}
+
+.modal-list-btn {
+	text-align: right;
+	margin-top: 15px;	
+}
+
+.btn-cancel, .btn-cancelEditModal {
+	padding: 10px;
+	border: 1px solid #464646;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-right: 5px;
+	font-size: 1rem;
+}
+
+.btn-ok-submit, .btn-ok-submitEditModal {
+	padding: 10px;
+	border: 1px solid #464646;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.btn-cancel:hover {
+	background-color: #9d9a9a;
+	transition: 0.5s;
+}
+
+.btn-ok-submit:hover {
+	background-color: #9d9a9a;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .subscribe-form {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	margin: 20px;
+}
+
+.field {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn:hover {
+	background-color: #bfbfbf;
+	border: solid 2px #bfbfbf;
+	border-radius: 5px;
+	cursor: pointer;
+} */
